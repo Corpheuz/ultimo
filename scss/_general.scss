@@ -1,0 +1,76 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    }
+
+ /*Tipografía*/
+
+ @font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-Regular.ttf);
+ }
+
+
+ /*Cuerpo */
+
+body {
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar-brand img{
+    width: 120px;
+}
+
+.navbar{
+    padding-left: 30px;
+    background-color: #ef8354;
+    position: sticky 20px;
+    a:hover {
+    color:rgb(197, 224, 248);
+    }
+}
+
+
+
+.nav-item {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+/* Textos principales de páginas*/
+.container h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    padding-top: 30px;
+    font-size: 32px;
+            h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    }
+}
+
+/* Footer general */
+footer{
+    background: #018599;
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   padding-left: 0; 
+}
+
+.enlaces img{
+    width: 75px;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+.card {
+    padding: 10;
+    background-color: transparent;
+    
+        img {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+}
